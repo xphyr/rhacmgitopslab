@@ -16,7 +16,7 @@ spec:
         app: httpd
     spec:
       containers:
-      - image: docker.io/httpd:latest 
+      - image: registry.access.redhat.com/rhscl/httpd-24-rhel7 
         name: httpd
         ports:
         - containerPort: 8080
